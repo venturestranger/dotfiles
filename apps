@@ -1,0 +1,31 @@
+essential-build
+trizen
+
+# environment
+i3wm / i3lock / tmux
+dunst
+rofi (dmenu)
+zsh
+urxvt / urxvt-resize-font-git
+vim
+vifm / ueberzug 
+zathura / zathura-pdf-mupdf
+mpv
+firefox 
+
+# utilities
+rtorrent
+links
+fzf
+feh
+htop
+scrot
+rclone
+mp3info
+pdftotext
+dumptorrent
+byzanz-record
+
+# customize env
+lxappearance 
+terminus-font
