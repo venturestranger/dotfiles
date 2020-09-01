@@ -1,0 +1,27 @@
+# settings
+set window-height 1024
+set window-width 768
+set adjust-open width
+set show-scrollbars false
+set first-page-column 2
+set window-title-basename true
+set recolor-keephue
+set selection-clipboard clipboard
+
+# key bindings
+map <C-i> recolor
+map [index] q quit
+
+# colors
+set recolor-darkcolor  "#FFFFFF"
+set recolor-lightcolor "#000000"
+set statusbar-fg "#000000"
+set statusbar-bg "#C2BFA5"
+set inputbar-fg "#FFFFFF"
+set inputbar-bg "#333333"
+set completion-highlight-fg "#F0E68C"
+set completion-highlight-bg "#6B8E23"
+set highlight-color "#CD853F"
+set highlight-active-color "#F0E68C"
+set notification-fg "#FFFFFF"
+set notification-bg "#333333"
