@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/vundle.vim
 call vundle#begin()
 
 Plugin 'terryma/vim-multiple-cursors' " multiple cursors in vim ^N
+Plugin 'lervag/vimtex' " latex additions
 
 call vundle#end()
 
@@ -13,6 +14,12 @@ call vundle#end()
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
 set tabstop=4 
 set shiftwidth=4
@@ -37,6 +44,10 @@ set noswapfile
 
 setlocal spell spelllang=ru_ru,en_us 
 set nospell
+" auto correct miss words  
+inoremap <C-k> <Esc>[s1z=`]a 
+nnoremap fs :set spell <CR>
+nnoremap fns :set nospell <CR>
 
 set termencoding=utf-8
 set encoding=utf-8 
@@ -55,6 +66,5 @@ nnoremap cfg :source ~/.vimrc <CR>
 
 " Plugins
 nnoremap fo :FZF <CR>
-" nnoremap to :NERDTreeToggle <CR>
 
 colorscheme bydream
