@@ -77,8 +77,7 @@ set $white             #dfe2ec
 
 
 # windows ------------------------------------------------------------------------------------------------------>
-for_window [class=".*"] border pixel 2
-for_window [class=".*"] floating enable
+for_window [class=".*"] border pixel 0
 for_window [class=".*"] title_format %title
 hide_edge_borders both
 title_align center
