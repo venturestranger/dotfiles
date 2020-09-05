@@ -98,6 +98,10 @@ bindsym $sup+k focus up
 bindsym $sup+l focus right
 bindsym $sup+f fullscreen toggle
 
+# scratchpad 
+bindsym $sup+n move scratchpad
+bindsym $sup+m scratchpad show
+
 # toggle tiling / floating
 bindsym $sup+space floating toggle
 bindsym $sup+Return focus mode_toggle
