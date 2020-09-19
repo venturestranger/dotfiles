@@ -32,6 +32,7 @@ alias sysst="sudo systemctl stop"
 # directories
 alias docs="cd ~/Documents"
 alias downs="cd ~/Downloads"
+alias dots="cd ~/dots"
 alias null="&>/dev/null"
 
 # programs
