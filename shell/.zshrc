@@ -9,15 +9,11 @@ ENABLE_CORRECTION="false"
 bindkey ^B backward-word 
 bindkey ^F forward-word 
 
-bindkey ^D kill-whole-line 
-
 bindkey ^W backward-kill-word 
 bindkey ^H backward-delete-char
 
 bindkey ^K kill-word 
 bindkey ^J delete-char
-
-bindkey ^U undo 
 
 # conf
 alias scfg="vim ~/.zshrc"
