@@ -50,7 +50,4 @@ vnoremap <Leader>p "*p
 vnoremap <Leader>Y "+y
 vnoremap <Leader>P "+p
 
-" Plugins
-nnoremap fo :FZF <CR>
-
 colorscheme bydream
