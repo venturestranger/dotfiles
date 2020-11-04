@@ -24,10 +24,6 @@ set noswapfile
 
 setlocal spell spelllang=ru_ru,en_us 
 set nospell
-" auto correct miss words  
-inoremap <C-k> <Esc>[s1z=`]xa
-nnoremap fs :set spell <CR>
-nnoremap fns :set nospell <CR>
 
 set termencoding=utf-8
 set encoding=utf-8 
@@ -37,17 +33,25 @@ set clipboard=unnamed
 set ruler
 set hidden
 
-nnoremap ghc :tabnew <CR>
-nnoremap ghh :tabprevious <CR>
-nnoremap ghl :tabnext <CR>
-nnoremap fd <C-w>
-inoremap jk <Esc>
-nnoremap cfg :source ~/.vimrc <CR>
+inoremap <C-k>	<Esc>[s1z=`]xa
+
+nnoremap fs		:set spell <CR>
+nnoremap fns	:set nospell <CR>
+
+nnoremap gnd	:set nornu <CR> :set nonu <CR>
+nnoremap gne	:set rnu <CR> :set nu <CR>
+
+nnoremap gn		:nohlsearch <CR>
+
+nnoremap ghc	:tabnew <CR>
+nnoremap ghh	:tabprevious <CR>
+nnoremap ghl	:tabnext <CR>
+
+nnoremap fd		<C-w>
+inoremap jk		<Esc>
+
+nnoremap cfg	:source ~/.vimrc <CR>
 
 set clipboard=unnamedplus
-vnoremap <Leader>y "*y
-vnoremap <Leader>p "*p
-vnoremap <Leader>Y "+y
-vnoremap <Leader>P "+p
 
 colorscheme bydream
