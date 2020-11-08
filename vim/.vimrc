@@ -33,7 +33,7 @@ set clipboard=unnamed
 set ruler
 set hidden
 
-nnoremap gc		<Esc>[s1z=`]xa 
+inoremap <C-c>	<Esc>[s1z=`]xa 
 
 nnoremap fs		:set spell <CR>
 nnoremap fns	:set nospell <CR>
@@ -41,7 +41,7 @@ nnoremap fns	:set nospell <CR>
 nnoremap gnd	:set nornu <CR> :set nonu <CR>
 nnoremap gne	:set rnu <CR> :set nu <CR>
 
-nnoremap gn		:nohlsearch <CR>
+nnoremap gns	:nohlsearch <CR>
 nnoremap ge		:redo <CR>
 
 nnoremap ghc	:tabnew <CR>
