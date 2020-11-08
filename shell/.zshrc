@@ -8,7 +8,7 @@ ENABLE_CORRECTION="false"
 # bindings
 bindkey ^B backward-word 
 bindkey ^F forward-word 
-bindkey ^K kill-word 
+bindkey ^T kill-word 
 bindkey ^W backward-kill-word 
 bindkey ^H backward-delete-char
 
