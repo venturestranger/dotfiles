@@ -1,5 +1,5 @@
 # zsh
-export ZSH="/home/themidis/.oh-my-zsh"
+export ZSH="/home/ireoi/.oh-my-zsh"
 ZSH_THEME="bydream"
 
 source $ZSH/oh-my-zsh.sh
@@ -14,7 +14,6 @@ bindkey ^H backward-delete-char
 
 # conf
 alias scfg="vim ~/.zshrc"
-alias xcfg="vim ~/.Xresources; xrdb .Xresources"
 
 # system 
 alias jctl="journalctl"
@@ -26,15 +25,7 @@ alias sysst="sudo systemctl stop"
 alias docs="cd ~/Documents"
 alias downs="cd ~/Downloads"
 alias dots="cd ~/dots"
-alias null="&>/dev/null"
-
-# programs
-alias vif="~/.config/vifm/scripts/vifmrun"
-alias vol="sudo alsamixer"
-alias gif="byzanz-record"
-
-# shells
-alias spy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
+alias innull="&>/dev/null"
 
 # get top process eating memory 
 alias psmem='ps auxf | sort -nr -k 4' 
@@ -59,10 +50,8 @@ alias status='git status'
 alias tag='git tag' 
 alias newtag='git tag -a'
 
-# functions 
-function wifi {
-	sudo netctl stop $1
-    sudo ip link set wlp8s0 down
-    sudo netctl start $1 
-}
-
+# tmux
+alias tjoin='tmux attach -t'
+alias tkill='tmux kill-session -t'
+alias tkall='tmux kill-server'
+alias tls='tmux ls'
