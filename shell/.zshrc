@@ -16,6 +16,7 @@ bindkey ^H backward-delete-char
 alias scfg="vim ~/.zshrc"
 
 # system 
+alias vol="alsamixer"
 alias jctl="journalctl"
 alias sysen="sudo systemctl enable"
 alias sysdi="sudo systemctl disable"
@@ -55,3 +56,6 @@ alias tjoin='tmux attach -t'
 alias tkill='tmux kill-session -t'
 alias tkall='tmux kill-server'
 alias tls='tmux ls'
+
+# other utilities
+alias gif="byzanz-record"
