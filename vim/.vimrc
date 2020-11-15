@@ -31,7 +31,6 @@ set fileencodings=utf8,cp1251
 set clipboard=unnamed
 
 set ruler
-set hidden
 
 inoremap <C-c>	<Esc>[s1z=`]xa 
 
