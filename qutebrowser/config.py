@@ -30,12 +30,6 @@ config.bind("ZQ", "wq")
 c.aliases = {
     "w": "session-save",
     "wq": "quit --save",
-    "qa" : "quickmark-add {url}", 
-    "qd" : "quickmark-del",
-    "ql" : "quickmark-load",
-    "ba" : "bookmark-add {url}", 
-    "bd" : "bookmark-del",
-    "bl" : "bookmark-load"
 }
 
 c.auto_save.session = True
