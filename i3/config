@@ -15,8 +15,8 @@ font pango:Terminus 8
 
 # init --------------------------------------------------------------------------------------------------------->
 exec "setxkbmap us,ru -option 'grp:alt_shift_toggle'"
-exec "xrandr --output HDMI-1 --mode 1280x1024 --pos 1366x0"
-exec "xrandr --output LVDS-1 --mode 1280x720 --pos 0x0"
+exec "xrandr --output HDMI-1 --mode 1366x728 --pos 1366x0"
+exec "xrandr --output LVDS-1 --mode 1366x728 --pos 0x0"
 exec "feh --bg-scale ~/.config/i3/1.png" 
 exec dunst 
 exec urxvt
@@ -24,9 +24,7 @@ exec urxvt
 
 
 # alias -------------------------------------------------------------------------------------------------------->
-bindsym $sup+w      exec "rofi -show window"
-bindsym $sup+d      exec "rofi -show run"
-bindsym $sup+s      exec "rofi -show ssh"
+bindsym $sup+d      exec "dmenu_run -b -nb '#1b1b1b' -sf '#1b1b1b' -sb '#2587cc' -fn 'Terminus:pixelsize=14'" 
 bindsym $mod+Return exec urxvt
 
 # volume
