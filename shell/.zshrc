@@ -57,5 +57,14 @@ alias tkill='tmux kill-session -t'
 alias tkall='tmux kill-server'
 alias tls='tmux ls'
 
+# wifi
+function wifito {
+	nmcli d wifi connect $1 password $2
+}
+alias wifiout="nmcli d disconnect wlp8s0"
+alias wifilist="nmcli d wifi list"
+alias wifioff="nmcli r wifi off"
+alias wifion="nmcli r wifi on"
+
 # other utilities
 alias gif="byzanz-record"

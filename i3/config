@@ -1,5 +1,4 @@
 # system ------------------------------------------------------------------------------------------------------->
-# shortcusts
 set $mod Mod4
 set $sup Mod1
 floating_modifier $sup
@@ -19,6 +18,7 @@ exec "xrandr --output HDMI-1 --mode 1366x728 --pos 1366x0"
 exec "xrandr --output LVDS-1 --mode 1366x728 --pos 0x0"
 exec "feh --bg-scale ~/.config/i3/1.png" 
 exec dunst 
+exec conky 
 exec urxvt
 # init --------------------------------------------------------------------------------------------------------->
 
@@ -39,30 +39,7 @@ bindsym $mod+z          exec "amixer -D pulse sset Capture	toggle"
 
 # bar ---------------------------------------------------------------------------------------------------------->
 bar {
-	status_command i3status -c ~/.config/i3/i3status.conf 
-
-	font pango:Terminus 10
-	separator_symbol "  "
-	mode hide
-	modifier $mod+$sup
-	position bottom 
-	
-	output primary
-	output LVDS1
-
-	tray_padding 1
-	tray_output primary
-	tray_output LVDS1
-
-	strip_workspace_numbers no
-	strip_workspace_name no
-	workspace_buttons no
-		 
-	colors {
-		background $black
-		statusline $white
-		separator $white
-	}
+	mode invisible
 }
 # bar ---------------------------------------------------------------------------------------------------------->
 
