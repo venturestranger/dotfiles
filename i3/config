@@ -1,4 +1,5 @@
 # system ------------------------------------------------------------------------------------------------------->
+# shortcusts
 set $mod Mod4
 set $sup Mod1
 floating_modifier $sup
@@ -11,9 +12,8 @@ bindsym $mod+$sup+e exec "i3-nagbar -t warning -m 'Exit X session?' -B 'Yes, exi
 font pango:Terminus 8
 # system ------------------------------------------------------------------------------------------------------->
 
-
 # init --------------------------------------------------------------------------------------------------------->
-exec "setxkbmap us,ru -option 'grp:alt_shift_toggle'"
+exec "setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'"
 exec "xrandr --output HDMI-1 --mode 1366x728 --pos 1366x0"
 exec "xrandr --output LVDS-1 --mode 1366x728 --pos 0x0"
 exec "feh --bg-scale ~/.config/i3/1.png" 
