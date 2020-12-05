@@ -24,7 +24,7 @@ exec urxvt
 
 
 # alias -------------------------------------------------------------------------------------------------------->
-bindsym $sup+d      exec "dmenu_run -b -nb '#1b1b1b' -sf '#1b1b1b' -sb '#2587cc' -fn 'Terminus:pixelsize=14'" 
+bindsym $sup+d      exec "dmenu_run -b -nb '#1b1b1b' -sf '#1b1b1b' -sb '#2587cc' -fn 'Terminus:pixelsize=15'" 
 bindsym $mod+Return exec urxvt
 
 # volume
@@ -36,20 +36,46 @@ bindsym $mod+x          exec "amixer -D pulse sset Master	toggle"
 bindsym $mod+z          exec "amixer -D pulse sset Capture	toggle" 
 # alias -------------------------------------------------------------------------------------------------------->
 
-
-# bar ---------------------------------------------------------------------------------------------------------->
-bar {
-	mode invisible
-}
-# bar ---------------------------------------------------------------------------------------------------------->
-
-
 # colors ------------------------------------------------------------------------------------------------------->
 set $black             #1c1c1c
 set $blue              #5f87ff
 set $white             #dfe2ec
 # colors ------------------------------------------------------------------------------------------------------->
 
+# bar ---------------------------------------------------------------------------------------------------------->
+bar {
+	status_command i3status -c ~/.config/i3/i3status.conf 
+
+	font pango:Terminus 8
+	separator_symbol "  "
+	mode dock 
+	modifier $mod+$sup
+	position bottom 
+	
+	output primary
+	output LVDS1
+
+	tray_padding 1
+	tray_output primary
+	tray_output LVDS1
+
+	strip_workspace_numbers yes
+	strip_workspace_name yes
+	workspace_buttons yes
+		 
+	colors {
+		background $black
+		statusline $white
+		separator $white
+
+		focused_workspace  $black $blue $black
+        active_workspace   $black $black $white
+        inactive_workspace $black $black $white
+        urgent_workspace   $black $black $white 
+		binding_mode       $black $black $white 
+	}
+}
+# bar ---------------------------------------------------------------------------------------------------------->
 
 # windows ------------------------------------------------------------------------------------------------------>
 for_window [class=".*"] border pixel 0
