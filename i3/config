@@ -71,8 +71,8 @@ bar {
 		focused_workspace  $black $blue $black
         active_workspace   $black $black $white
         inactive_workspace $black $black $white
-        urgent_workspace   $black $black $white 
-		binding_mode       $black $black $white 
+        urgent_workspace   $blue $black $blue 
+		binding_mode       $blue $black $blue 
 	}
 }
 # bar ---------------------------------------------------------------------------------------------------------->
