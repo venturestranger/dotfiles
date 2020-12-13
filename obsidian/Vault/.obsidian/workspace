@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "b2cc4ab6eb690134",
+    "type": "split",
+    "children": [
+      {
+        "id": "77fff21c93f8acff",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Templates/Note.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d70b57399463e19",
+    "type": "split",
+    "children": [
+      {
+        "id": "b72961c7d9909674",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "281bb886594dd92b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5a692c1fa0beb151",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "first",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 193
+  },
+  "right": {
+    "id": "3ab177e9f53875cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "57cbd5364be4a78b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dd4ab8b707dacd3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/Note.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "498b7b575f9a0d8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Templates/Note.md",
+    "Daily notes/Note.md",
+    "Help.md",
+    "Daily notes/2020-12-13.md",
+    "Untitled.md",
+    "how are you.md",
+    "hello world.md",
+    "Templates/Resource.md",
+    "Templates/Daily note.md",
+    "Templates/Idea.md"
+  ]
+}
