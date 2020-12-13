@@ -1,39 +1,31 @@
-# libs
-essential-build
-
 # environment
-# must have
-i3wm / i3lock
-dunst
-rofi
-zsh
-urxvt / urxvt-resize-font-git
-vim / tmux
+i3wm i3lock
+vim tmux
 firefox 
+dunst
+dmenu
+urxvt
+zsh
 
-# in additional
-zathura / zathura-pdf-mupdf
-vifm / ueberzug 
-mupdf
-mpv
-
-# utilities
-# must have
+# utilities 
+zathura zathura-pdf-mupdf
 byzanz-record
-rtorrent
-rclone
-trizen
-links
-scrot
-htop
-feh
-
-# in additional
 dumptorrent
 pdftotext
+rtorrent
 mp3info
+rclone
+scrot 
+links
+vifm 
+htop
+mpv
+feh
+
+# extra
+trizen
 fzf
 
-# customize env
+# custom 
 lxappearance 
 terminus-font
