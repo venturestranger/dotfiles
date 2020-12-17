@@ -1,11 +1,10 @@
 # environment
+vifm vim tmux zsh
 i3wm i3lock
-vim tmux
 firefox 
 dunst
 dmenu
 urxvt
-zsh
 
 # utilities 
 zathura zathura-pdf-mupdf
