@@ -27,12 +27,11 @@ set nospell
 
 set termencoding=utf-8
 set encoding=utf-8 
-set fileencodings=utf8,cp1251
+set fileencodings=utf8
 set clipboard=unnamed
 
 set ruler
-
-inoremap <C-c>	<Esc>[s1z=`]xa 
+set hidden
 
 nnoremap fs		:set spell <CR>
 nnoremap fns	:set nospell <CR>
@@ -51,7 +50,5 @@ nnoremap fd		<C-w>
 inoremap jk		<Esc>
 
 nnoremap cfg	:source ~/.vimrc <CR>
-
-set clipboard=unnamedplus
 
 colorscheme bydream
