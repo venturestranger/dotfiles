@@ -24,8 +24,10 @@ exec urxvt
 
 
 # alias -------------------------------------------------------------------------------------------------------->
-bindsym $sup+d      exec "dmenu_run -b -nb '#1b1b1b' -sf '#1b1b1b' -sb '#2587cc' -fn 'Terminus:pixelsize=15'" 
-bindsym $mod+Return exec urxvt
+bindsym $sup+d						exec "dmenu_run -b -nb '#1b1b1b' -sf '#1b1b1b' -sb '#2587cc' -fn 'Terminus:pixelsize=15'" 
+bindsym --release Print				exec "scrot -m '~/Pictures/screenshots/%s_%H%M_%d.%m.%Y_$wx$h.png'"
+bindsym --release Shift+Print		exec "scrot -s '~/Pictures/screenshots/%s_%H%M_%d%m%Y_$wx$h.png'"
+bindsym $mod+Return					exec urxvt
 
 # volume
 bindsym $mod+q			exec "amixer -D pulse sset Master	5%-"
