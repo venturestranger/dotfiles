@@ -24,7 +24,8 @@ exec urxvt
 
 
 # alias -------------------------------------------------------------------------------------------------------->
-bindsym $sup+d						exec "dmenu_run -b -nb '#1b1b1b' -sf '#1b1b1b' -sb '#2587cc' -fn 'Terminus:pixelsize=15'" 
+bindsym $sup+d						exec "rofi -show run"
+bindsym $sup+w						exec "rofi -show window"
 bindsym --release Print				exec "cd ~/Pictures/; scrot -m"
 bindsym --release Shift+Print		exec "cd ~/Pictures/; scrot -s"
 bindsym $mod+Return					exec urxvt
@@ -80,9 +81,9 @@ bar {
 # bar ---------------------------------------------------------------------------------------------------------->
 
 # windows ------------------------------------------------------------------------------------------------------>
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1
 for_window [class=".*"] title_format %title
-hide_edge_borders both
+hide_edge_borders none
 title_align center
 focus_follows_mouse yes
 workspace_auto_back_and_forth yes
