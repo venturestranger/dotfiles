@@ -1,6 +1,6 @@
 /*******************************************************************************
  * ROFI Color theme
- * User: infinityuser
+ * User: ireoi
  *******************************************************************************/
 
 * {
@@ -33,6 +33,7 @@
     alternate-active-foreground: @active-foreground;
     active-background:           rgba ( 28, 28, 28, 100 % );
     selected-active-background:  rgba ( 28, 28, 28, 100 % );
+	font:						"Terminus Bold 14";
 }
 
 #window {
