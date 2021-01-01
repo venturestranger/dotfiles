@@ -47,7 +47,7 @@ set $white             #dfe2ec
 
 # bar ---------------------------------------------------------------------------------------------------------->
 bar {
-	status_command i3status -c ~/.config/i3/i3status.conf 
+	status_command i3blocks -c ~/.config/i3/i3blocks.conf 
 
 	font pango:Terminus 8
 	separator_symbol "  "
@@ -81,7 +81,7 @@ bar {
 # bar ---------------------------------------------------------------------------------------------------------->
 
 # windows ------------------------------------------------------------------------------------------------------>
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 0
 for_window [class=".*"] title_format %title
 hide_edge_borders none
 title_align center
