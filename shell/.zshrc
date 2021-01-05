@@ -25,8 +25,9 @@ alias sysst="sudo systemctl stop"
 # directories
 alias docs="cd ~/Documents"
 alias downs="cd ~/Downloads"
-alias dots="cd ~/dots"
-alias innull="&>/dev/null"
+alias dots="cd ~/dotfiles"
+alias conf="cd ~/.config"
+alias tonull="&>/dev/null"
 
 # get top process eating memory 
 alias psmem='ps auxf | sort -nr -k 4' 

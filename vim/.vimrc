@@ -22,7 +22,7 @@ set linebreak
 set nobackup
 set noswapfile
 
-setlocal spell spelllang=ru_ru,en_us 
+"setlocal spell spelllang=ru_ru,en_us 
 set nospell
 
 set termencoding=utf-8
@@ -33,8 +33,12 @@ set clipboard=unnamed
 set ruler
 set hidden
 
-nnoremap fs		:set spell <CR>
-nnoremap fns	:set nospell <CR>
+nnoremap W		$	
+nnoremap B		^
+nnoremap J		:+10<CR>
+nnoremap K		:-10<CR>
+nnoremap <C-k>	Vdkkp
+nnoremap <C-j>	Vdp
 
 nnoremap gnd	:set nornu <CR> :set nonu <CR>
 nnoremap gne	:set rnu <CR> :set nu <CR>
