@@ -33,12 +33,12 @@ set clipboard=unnamed
 set ruler
 set hidden
 
-nnoremap W		$	
-nnoremap B		^
-nnoremap J		:+10<CR>
-nnoremap K		:-10<CR>
-nnoremap <C-k>	Vdkkp
-nnoremap <C-j>	Vdp
+noremap W		$	
+noremap B		^
+noremap J		jjjjjjjjjj
+noremap K		kkkkkkkkkk
+noremap <C-j>	Vdp
+noremap <C-k>	Vdkkp
 
 nnoremap gnd	:set nornu <CR> :set nonu <CR>
 nnoremap gne	:set rnu <CR> :set nu <CR>
