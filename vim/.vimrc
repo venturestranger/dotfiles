@@ -33,10 +33,10 @@ set clipboard=unnamed
 set ruler
 set hidden
 
-noremap <C-w>	$	
-noremap <C-b>	^
-noremap <C-j>	jjjjjjjjjj
-noremap <C-k>	kkkkkkkkkk
+noremap <S-w>	$	
+noremap <S-b>	^
+noremap <S-j>	jjjjjjjjjj
+noremap <S-k>	kkkkkkkkkk
 noremap <C-j>	Vdp
 noremap <C-k>	Vdkkp
 noremap <S-l>	k<S-a><CR>
