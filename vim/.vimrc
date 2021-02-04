@@ -39,8 +39,8 @@ noremap <S-j>	jjjjjjjjjj
 noremap <S-k>	kkkkkkkkkk
 noremap <C-j>	Vdp
 noremap <C-k>	Vdkkp
-noremap <S-l>	k<S-a><CR>
-noremap <S-o>	<S-a><CR>
+noremap <S-o>	k<S-a><CR>
+noremap <S-l>	<S-a><CR>
 
 nnoremap gnd	:set nornu <CR> :set nonu <CR>
 nnoremap gne	:set rnu <CR> :set nu <CR>
