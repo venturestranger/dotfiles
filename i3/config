@@ -20,6 +20,7 @@ exec "feh --bg-scale ~/.config/i3/1.png"
 exec dunst 
 exec conky 
 exec urxvt
+notify-send --app-name=System --urgency=low "System is prepared for work"
 # init --------------------------------------------------------------------------------------------------------->
 
 
