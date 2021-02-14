@@ -38,6 +38,7 @@
 URxvt.transparent: false
 URxvt.shading: 0
 URxvt.font: xft:Terminus:pixelsize=14
+!URxvt.font: xft:Terminus:pixelsize=14
 
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0

@@ -9,7 +9,7 @@ bindsym $mod+$sup+r restart
 bindsym $mod+$sup+l exec "i3lock -u -c 1c1c1c"
 bindsym $mod+$sup+e exec "i3-nagbar -t warning -m 'Exit X session?' -B 'Yes, exit i3' 'i3-msg exit'"
 
-font pango:Terminus 8
+font pango:Source Code Pro Regular 8
 # system ------------------------------------------------------------------------------------------------------->
 
 # init --------------------------------------------------------------------------------------------------------->
@@ -49,7 +49,7 @@ set $white             #dfe2ec
 bar {
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf 
 
-	font pango:Terminus 8
+	font pango:Source Code Pro 8
 	separator_symbol "  "
 	mode dock 
 	modifier $mod+$sup
