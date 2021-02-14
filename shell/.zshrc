@@ -69,4 +69,7 @@ alias wifion="nmcli r wifi on"
 
 # other utilities
 alias gif="byzanz-record"
-alias com="g++ -std=c++17 -Wall -O2 -o ./debug"
+function mk {
+	g++ -std=c++17 -Wall -O2 -o ./debug $1
+	./debug $1 < $2
+}

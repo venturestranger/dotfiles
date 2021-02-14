@@ -46,7 +46,7 @@ nnoremap gnd	:set nornu <CR> :set nonu <CR>
 nnoremap gne	:set rnu <CR> :set nu <CR>
 
 nnoremap gns	:nohlsearch <CR>
-nnoremap ge		:redo <CR>
+nnoremap <Tab>	:redo <CR>
 
 nnoremap ghc	:tabnew <CR>
 nnoremap ghh	:tabprevious <CR>
@@ -57,4 +57,5 @@ inoremap jk		<Esc>
 
 nnoremap cfg	:source ~/.vimrc <CR>
 
-colorscheme bydream
+set background=dark
+colorscheme PaperColor
