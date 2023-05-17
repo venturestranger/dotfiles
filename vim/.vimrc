@@ -58,4 +58,4 @@ inoremap jk		<Esc>
 nnoremap cfg	:source ~/.vimrc <CR>
 
 set background=dark
-colorscheme PaperColor
+colorscheme default
